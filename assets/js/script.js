@@ -90,7 +90,8 @@ var getForecast = function (city) {
                             time: dateTime[1],
                             icon: data.list[i].weather[0].icon,
                             temp: data.list[i].main.temp + " &#8451",
-                            humidity: data.list[i].main.humidity
+                            humidity: data.list[i].main.humidity + " %",
+                            wind: data.list[i].wind.speed + " KPH",
                         };
                         forecast.push(futureDate);
                     }
@@ -139,6 +140,11 @@ var displayForecast = function () {
         humidityEl.classList.add("card-text");
         humidityEl.innerHTML = "Humidity: " + forecast[i].humidity
         cardBodyEl.appendChild(humidityEl);
+
+        var windSpeedEl = document.createElement("p");
+        windSpeedEl.classList.add("card-text");
+        windSpeedEl.innerHTML = "Wind Speed: " + forecast[i].wind
+        cardBodyEl.appendChild(windSpeedEl);
 
         cardEl.appendChild(cardBodyEl);
         cardContainerEl.appendChild(cardEl);
