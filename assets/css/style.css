@@ -1,5 +1,5 @@
 .header {
-    background-color: black;
+    background-image: linear-gradient(to right, red , yellow);
     color: white;
     text-align: center;
     height: auto;
@@ -27,10 +27,11 @@
 .history-item {
     border-style: solid;
     border-width: thin;
-    margin-bottom: 3px;
+    margin-bottom: 10px;
     border-radius: 10px;
     border-color: lightslategray;
     background-color: lightgray;
+    cursor: pointer;
 }
 
 .history-item h4 {
@@ -48,11 +49,11 @@
 }
 
 .card-header {
-    background-color: rgb(74, 180, 237);
+    background-color: orange;
 }
 
 .forecast-card {
-    background-color:  rgb(74, 180, 237);
+    background-color: orange;
 }
 
 #forecast-container {
