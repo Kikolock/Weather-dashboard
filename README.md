@@ -23,7 +23,7 @@ This challenge consists in creating a weather dashboard to check today and next 
 
 link: https://kikolock.github.io/Weather-dashboard/
 
-## Daily Planner
+## Images
 ![My Remote Image](https://github.com/Kikolock/Weather-dashboard/blob/main/assets/images/main%20page.PNG)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
