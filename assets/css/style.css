@@ -1,0 +1,64 @@
+.header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: auto;
+    padding: 15px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.card-header {
+    justify-content: space-between;
+}
+
+.card-header h6 {
+    display: inline;
+    padding-right: 100px;
+}
+
+.alert {
+    margin-left: 25px;
+}
+
+.history-item {
+    border-style: solid;
+    border-width: thin;
+    margin-bottom: 3px;
+    border-radius: 10px;
+    border-color: lightslategray;
+    background-color: lightgray;
+}
+
+.history-item h4 {
+    padding-left: 10px;
+}
+
+.form-input {
+    border-color: lightslategray;
+    border-style: solid;
+    border-width: thin;
+
+}
+.form-input:focus {
+    outline: none
+}
+
+.card-header {
+    background-color: rgb(74, 180, 237);
+}
+
+.forecast-card {
+    background-color:  rgb(74, 180, 237);
+}
+
+#forecast-container {
+    display: none;
+}
+
+#current-stats {
+    display: none;
+}
