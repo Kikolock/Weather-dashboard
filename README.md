@@ -17,7 +17,7 @@ This challenge consists in creating a weather dashboard to check today and next 
 
 ## Link to deployed application
 
-link: ...
+link: https://kikolock.github.io/Weather-dashboard/
 
 ## Daily Planner
 ![My Remote Image](...)
