@@ -89,9 +89,9 @@ var getForecast = function (city) {
                             date: moment(dateTime[0]).format("MM/DD/YYYY"),
                             time: dateTime[1],
                             icon: data.list[i].weather[0].icon,
-                            temp: data.list[i].main.temp + " &#8451",
-                            humidity: data.list[i].main.humidity + " %",
-                            wind: data.list[i].wind.speed + " KPH",
+                            temp: data.list[i].main.temp + "  &#8451",
+                            humidity: data.list[i].main.humidity + "  %",
+                            wind: data.list[i].wind.speed + "  KPH",
                         };
                         forecast.push(futureDate);
                     }
